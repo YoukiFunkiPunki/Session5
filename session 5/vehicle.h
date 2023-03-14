@@ -8,8 +8,10 @@ protected:
     double m_price;
 public:
     vehicle(double);
-    virtual void afficher();
-    double get_price();
+    virtual void afficher()=0;
+    virtual double get_price()=0;
+    virtual int get_type()=0;
+    virtual ~vehicle(){};
 };
 
 vehicle::vehicle(double a):m_price(a){}
