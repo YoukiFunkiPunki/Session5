@@ -9,7 +9,7 @@ protected:
     int m_doors;
 public:
     car(double,int);
-    void afficher();
+    virtual void afficher();
     double get_price();
     int get_type();
 };
