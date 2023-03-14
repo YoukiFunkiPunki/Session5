@@ -8,7 +8,7 @@ protected:
     double m_price;
 public:
     vehicle(double);
-    void afficher();
+    virtual void afficher();
     double get_price();
 };
 
