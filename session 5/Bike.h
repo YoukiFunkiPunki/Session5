@@ -9,7 +9,7 @@ protected:
     double m_speed;
 public:
     bike(double,double);
-    void afficher();
+    virtual void afficher();
     double get_price();
     int get_type();
 };
